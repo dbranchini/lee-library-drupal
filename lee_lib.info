@@ -98,10 +98,14 @@ regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
 regions[bottom]         = Page bottom
-; The following regions were added for the home page
-regions[home_col_left]  = Home first column
-regions[home_col_center]= Home center column
-regions[home_col_right] = Home last column
+; The following regions were added for the home page only
+; First row
+regions[home_photos]    = Home Photos section
+regions[home_about]     = Home About section
+; Second row
+regions[home_col_left]  = Home First column
+regions[home_col_center]= Home Center column
+regions[home_col_right] = Home Last column
 
 
 

@@ -124,6 +124,22 @@
       <?php endif; ?>
       <?php //print render($page['content']); ?>
 
+       <!-- first_row home page (one-third/two thirds split) structured sections -->
+      <div id="home" class="row">
+        <?php if ($page['home_photos']): ?>
+          <div class="col-md-4 col-sm-4">
+            <?php print render($page['home_photos']); ?>
+          </div> <!-- /.span4 -->
+        <?php endif; ?>
+        <?php if ($page['home_about']): ?>
+          <div class="col-md-8 col-sm-8">
+            <?php print render($page['home_about']); ?>
+          </div> <!-- /.span8 -->
+        <?php endif; ?>
+
+      </div><!-- /#home first_row-->
+
+      <!-- second_row home page (three equal columns) -->
       <div id="home" class="row">
         <?php if ($page['home_col_left']): ?>
           <div class="col-md-4 col-sm-4">
