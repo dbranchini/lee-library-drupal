@@ -241,9 +241,19 @@ ul.sub-menu li, .sub-menu ul li {
   margin-bottom: 10px;
 }
 
+#footer ul.menu li {
+  display:inline;
+}
+#footer ul.menu li:after {
+  content: ' | ';
+}
+#footer ul.menu li.last:after {
+  content: none;
+}
+
 .caption p {
   color: #666;
-  font-size: 0.7em;
+  font-size: 10px;
   margin-top:3px;
 }
 
