@@ -238,6 +238,7 @@ ol.unstyled, ul.unstyled {
 .btn-default:hover, #return-to-top:hover {
     background: rgba(102, 102, 102, 0.5);
     color: #fff;
+    text-decoration: none;
 }
 #return-to-top {
     position: fixed;
