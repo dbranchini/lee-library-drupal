@@ -266,6 +266,9 @@ ul.sub-menu li, .sub-menu ul li {
 .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.75em;
 }
+.views-row:hover {
+  background-color: #fff;
+}
 
 
 
