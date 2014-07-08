@@ -257,6 +257,13 @@ ul.sub-menu li, .sub-menu ul li {
   margin-top:3px;
 }
 
+.views-exposed-form label{
+  display:block;
+}
+.views-exposed-form .form-select, .views-exposed-form .form-submit {
+  height: 25px;
+}
+
 
 
 
