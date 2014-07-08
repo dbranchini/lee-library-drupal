@@ -263,7 +263,9 @@ ul.sub-menu li, .sub-menu ul li {
 .views-exposed-form .form-select, .views-exposed-form .form-submit {
   height: 25px;
 }
-
+.views-exposed-form .form-submit {
+  margin-top: 1.75em;
+}
 
 
 
