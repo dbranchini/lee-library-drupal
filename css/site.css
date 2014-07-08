@@ -257,13 +257,13 @@ ul.sub-menu li, .sub-menu ul li {
   margin-top:3px;
 }
 
-.views-exposed-form label{
+.views-exposed-form .views-exposed-widget label{
   display:block;
 }
-.views-exposed-form .form-select, .views-exposed-form .form-submit {
+.views-exposed-form .views-exposed-widget .form-select, .views-exposed-form .views-exposed-widget .form-submit {
   height: 25px;
 }
-.views-exposed-form .form-submit {
+.views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.75em;
 }
 
