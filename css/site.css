@@ -231,6 +231,7 @@ ol.unstyled, ul.unstyled {
     color: #f3f3f3;
     padding: 10px;
     font-size: 14px;
+    text-decoration: none;
     text-shadow: none;
     box-shadow: none;
 }
@@ -244,7 +245,6 @@ ol.unstyled, ul.unstyled {
     right: 20px;
     z-index: 1000;
     display: none;
-    text-decoration: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
