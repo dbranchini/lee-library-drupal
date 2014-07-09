@@ -163,9 +163,9 @@ ol.unstyled, ul.unstyled {
 
 .left, .img-left {float:left;}
 .right, .img-right {float:right;}
-
-.img-left {margin-right:20px; margin-bottom:10px;}
-.img-right {margin-left:20px; margin-bottom:10px;}
+.img-left, .img-right {margin-bottom:10px; max-width:400px;}
+.img-left {margin-right:20px;}
+.img-right {margin-left:20px;}
 
 
 /* bootstrap navbar with collapse for small devices */
