@@ -81,6 +81,9 @@ h3, .sidebar h2 {
     margin:inherit;
 }
 
+.page__title {
+    margin-bottom: 20px;
+}
 
 /* header/banner */
 #header #site-name {
